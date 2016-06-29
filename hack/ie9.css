@@ -1,0 +1,19 @@
+/* IE9也是个笨蛋！！！ */
+	
+body{font-family: "Century Gothic","Microsoft YaHei", Trebuchet MS, Arial, Verdana, Tahoma, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;}
+
+ul.menu li a {padding:6px 16px 7px 18px; line-height:16px;}
+ul.menu li a:hover {color: #EBEBEB;}	
+.searchbar input{ padding-top:3px; }
+
+	.cate{margin:8px 0 0 40px;}
+	.comnumber{ margin:8px 2px 0 0;}
+	
+	.widget h3{padding:4px 0 0 20px;}
+	.widgit-area h3{ padding:4px 0 0 20px;}
+	.post-tags{ font-size:11px; line-height:20px;}
+	
+	.slidecontent{font-family:"Microsoft YaHei","Trebuchet MS",Tahoma,Arial,sans-serif; }
+	
+	.post-tags{z-index:1;padding:0px 1px 2px 1px;}
+	
