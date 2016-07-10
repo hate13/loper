@@ -45,12 +45,12 @@ body{color: #222;font-size:13px;font-family: 'Century Gothic',"Microsoft YaHei",
 
 
 /* -----------Header----------- */
-header {width: 1000px; height:150px;margin: 0 auto;background:transparent url(images/headerbg.jpg) no-repeat;position:relative;_left:-10px}
+header {width: 1000px; height:150px;margin: 0 auto;background:transparent url(images/headerbg.png) no-repeat;position:relative;_left:-10px}
 .hgroup{ height:100px; margin:0 40px !important;margin:0 20px ; width:500px;float:left;}
 .hgroup h1,.hgroup h2{padding:38px 0 0 30px;font-family: "Microsoft YaHei",sans-serif;font-weight:bold;font-size:25px; width:300px; }
 .hgroup h1 a,.hgroup h2 a{ color:#504f4f; text-decoration:none;
 text-shadow:1px 1px 3px #C1C1C1;}
-.logo{ float:left;display:block;width:250px; height:88px; background:url(images/logo.jpg) no-repeat; margin-top:9px;//add by hate13}
+.logo{ float:left;display:block;width:250px; height:88px; background:url(images/logo.png) no-repeat; margin-top:9px;//add by hate13}
 .searchbar{ width:132px; height:32px; float: right;  position:relative;top:55px ; right :18px; }
 .searchfade{width:132px; height:32px;background:url(images/sideimg.gif) no-repeat 0 -63px;display:none;}
 .searchbarswitch{ width:22px; height:21px; float:right; position:relative; top:112px; right:30px;cursor:pointer;}

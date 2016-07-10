@@ -228,7 +228,7 @@ $(".toggle").click(function(){$(this).next().slideToggle('slow')});
 						
 						网站首页关键词 （多个关键词用英文的逗号隔开）<br/><label><textarea name="keyword_content"  rows="1"  id="keyword_content" style="width:310px;" ><?php echo($options['keyword_content']); ?></textarea></label><br/><br/>
 						
-						<label><input name="imageLogo" type="checkbox" value="checkbox" <?php if($options['imageLogo']) echo "checked='checked'"; ?> />使用图片logo。（编辑主题images文件夹的logo.psd，保存图片为logo.jpg，替换默认图片）</label><br/><br/>
+						<label><input name="imageLogo" type="checkbox" value="checkbox" <?php if($options['imageLogo']) echo "checked='checked'"; ?> />使用图片logo。（编辑主题images文件夹的logo.psd，保存图片为logo.png，替换默认图片）</label><br/><br/>
 						
 				
 						<label><input name="feedrss" type="checkbox" value="checkbox" <?php if($options['feedrss']) echo "checked='checked'"; ?> />使用其他feed地址，填写feed地址，（加上http://）</label><br/>
@@ -629,20 +629,4 @@ return;
 foreach ( $this->customFields as $customField ) {
 if ( current_user_can( $customField['capability'], $post_id ) ) 
 {
-if ( isset( $_POST[ $this->prefix . $customField['name'] ] ) && trim( $_POST[ $this->prefix . $customField['name'] ] ) ) {
-$value = $_POST[ $this->prefix . $customField['name'] ];
-// 为富文本框的文本自动分段
-if ( $customField['type'] == "wysiwyg" ) $value = wpautop( $value );
-update_post_meta( $post_id, $this->prefix . $customField[ 'name' ], $value );
-} else {
-delete_post_meta( $post_id, $this->prefix . $customField[ 'name' ] );
-}}}} } // End Class
-} // End if class exists statement
- 
-// 实例化类
-if ( class_exists('myCustomFields') ) {
-$myCustomFields_var = new myCustomFields();
-} 
-/////////////////////////////////////////
-	
-?>
+if ( isset( $_POST[ $
