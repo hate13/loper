@@ -63,7 +63,7 @@
 		<div class="footerinfo">
 			<div class="container-footer">
 				<div class="footerinfotext">
-				<p><a href="<?php echo get_option('home');?>/"><?php bloginfo('name');?></a>  © 2015-<?php echo date("Y");echo " ";?> 版权所有 | <a href="http://www.miibeian.gov.cn" target="_blank">蜀ICP备15025043号</a> | <a title="网站地图" href="http://a107563.hostedsitemaps.com/3992873/sitemap.html" target="_blank">网站地图</a> |<a title="管理" href="http://hate13.com/wp-admin" target="_blank">管理</a></p>
+				<p><a href="<?php echo get_option('home');?>/"><?php bloginfo('name');?></a>  © 2015-<?php echo date("Y");echo " ";?> 版权所有 | <a href="http://www.miibeian.gov.cn" target="_blank">蜀ICP备15025043号</a> | <a title="网站地图" href="http://hate13.com/sitemap">网站地图</a> |<a title="管理" href="http://hate13.com/wp-admin" target="_blank">管理</a></p>
 				<p>基于 <a href="http://wordpress.org/">WordPress</a> 技术构建 | <a title="阿里云虚拟主机" href="https://www.aliyun.com/" target="_blank">阿里云虚拟主机</a> | <a title="百度云加速" href="http://su.baidu.com/" target="_blank">百度云加速</a> | 共<?php echo get_num_queries(); ?> 次查询,用时 <?php timer_stop(1); ?> 秒 </p>
 				</div>
  
