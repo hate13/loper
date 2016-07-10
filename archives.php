@@ -3,8 +3,6 @@
 Template Name: Archives(存档页)
 */
 ?>
-
-
 <?php get_header(); ?>
 <div id="content">
 	<section class="layout">
@@ -67,6 +65,4 @@ Template Name: Archives(存档页)
 	</section>
 
 
-	<?php get_sidebar(); ?>
-	</div><!--#content-->
-<?php get_footer(); ?>
+	<?ph

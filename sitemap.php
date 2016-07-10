@@ -3,8 +3,6 @@
 Template Name:sitemap（网站地图）
 */
 ?>
-
-
 <?php get_header(); ?>
 <div id="content">
 	<section class="layout">
