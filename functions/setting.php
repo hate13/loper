@@ -629,4 +629,20 @@ return;
 foreach ( $this->customFields as $customField ) {
 if ( current_user_can( $customField['capability'], $post_id ) ) 
 {
-if ( isset( $_POST[ $
+if ( isset( $_POST[ $this->prefix . $customField['name'] ] ) && trim( $_POST[ $this->prefix . $customField['name'] ] ) ) {
+$value = $_POST[ $this->prefix . $customField['name'] ];
+// 为富文本框的文本自动分段
+if ( $customField['type'] == "wysiwyg" ) $value = wpautop( $value );
+update_post_meta( $post_id, $this->prefix . $customField[ 'name' ], $value );
+} else {
+delete_post_meta( $post_id, $this->prefix . $customField[ 'name' ] );
+}}}} } // End Class
+} // End if class exists statement
+ 
+// 实例化类
+if ( class_exists('myCustomFields') ) {
+$myCustomFields_var = new myCustomFields();
+} 
+/////////////////////////////////////////
+	
+?>

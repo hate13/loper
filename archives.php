@@ -65,4 +65,6 @@ Template Name: Archives(存档页)
 	</section>
 
 
-	<?ph
+	<?php get_sidebar(); ?>
+	</div><!--#content-->
+<?php get_footer(); ?>
