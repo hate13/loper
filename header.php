@@ -141,17 +141,17 @@
 			<?php endif; ?>
 			
 			<?php if($options['qqcheck'] && $options['qq_sns']) : ?>
-			<a href="<?php echo($options['qq_sns']); ?>" title="腾讯微博" class="qqsns" rel="nofollow">腾讯微博</a>
+			<a href="<?php echo($options['qq_sns']); ?>" title="腾讯微博" class="qqsns" rel="nofollow" target="_blank">腾讯微博</a>
 			<?php else : ?>	
 			<?php endif; ?>
 			
 			<?php if($options['sinacheck'] && $options['sina_sns']) : ?>
-			<a href="<?php echo($options['sina_sns']); ?>" title="新浪微博" class="sinasns" rel="nofollow">新浪微博</a>
+			<a href="<?php echo($options['sina_sns']); ?>" title="新浪微博" class="sinasns" rel="nofollow" target="_blank">新浪微博</a>
 			<?php else : ?>	
 			<?php endif; ?>
 			
 			<?php if($options['twittercheck'] && $options['twitter_sns']) : ?>
-			<a href="<?php echo($options['twitter_sns']); ?>" title="twitter" class="twittersns" rel="nofollow">twitter</a> 
+			<a href="<?php echo($options['twitter_sns']); ?>" title="twitter" class="twittersns" rel="nofollow" target="_blank">twitter</a> 
 			<?php else : ?>	
 			<?php endif; ?>	
 
