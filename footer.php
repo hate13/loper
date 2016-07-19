@@ -87,4 +87,5 @@
 
 </div><!--#main-->
 <?php wp_footer(); ?>
-</bo
+</body>
+</html>

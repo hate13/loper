@@ -86,4 +86,16 @@
 							<tr>
 								<td><span class=pageprevious><?php previous_posts_link('上一页')?></span></td>
 								<td class="pagenumber"><?php par_pagenavi(9); ?></td>
-								<td><span class=pagenext><?php next_posts_link('下一页')?><
+								<td><span class=pagenext><?php next_posts_link('下一页')?></span></td>
+							</tr>
+						</tbody>
+					</table>
+				</nav>
+			
+			</article>	
+		</section>
+
+
+	<?php get_sidebar(); ?>
+	</div><!--#content-->
+<?php get_footer(); ?>

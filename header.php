@@ -1,4 +1,4 @@
-﻿﻿<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 	<title><?php if ( is_tag() ) {
@@ -141,12 +141,12 @@
 			<?php endif; ?>
 			
 			<?php if($options['qqcheck'] && $options['qq_sns']) : ?>
-			<a href="<?php echo($options['qq_sns']); ?>" title="腾讯微博" class="qqsns" rel="nofollow" target="_blank">腾讯微博</a>
+			<a href="<?php echo($options['qq_sns']); ?>" title="知乎社区" class="qqsns" rel="nofollow" target="_blank">知乎社区</a>
 			<?php else : ?>	
 			<?php endif; ?>
 			
 			<?php if($options['sinacheck'] && $options['sina_sns']) : ?>
-			<a href="<?php echo($options['sina_sns']); ?>" title="知乎社区" class="sinasns" rel="nofollow" target="_blank">知乎社区</a>
+			<a href="<?php echo($options['sina_sns']); ?>" title="新浪微博" class="sinasns" rel="nofollow" target="_blank">新浪微博</a>
 			<?php else : ?>	
 			<?php endif; ?>
 			

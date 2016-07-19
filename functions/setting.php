@@ -293,7 +293,7 @@ $(".toggle").click(function(){$(this).next().slideToggle('slow')});
 							<label><input name="sinacheck" type="checkbox" value="checkbox" <?php if($options['sinacheck']) echo "checked='checked'"; ?> />开启新浪微博图标，并填入你的新浪微博网址（加上http://）</label><br/>
 							<label><textarea name="sina_sns"  rows="1"  id="sina_sns" style="width:310px;"  ><?php echo($options['sina_sns']); ?></textarea></label>
 							<br/><br/>	
-							<label><input name="qqcheck" type="checkbox" value="checkbox" <?php if($options['qqcheck']) echo "checked='checked'"; ?> />开启腾讯微博图标，并填入你的腾讯微博网址（加上http://）</label><br/>
+							<label><input name="qqcheck" type="checkbox" value="checkbox" <?php if($options['qqcheck']) echo "checked='checked'"; ?> />开启知乎社区图标，并填入你的知乎社区网址（加上http://）</label><br/>
 							<label><textarea name="qq_sns"  rows="1"  id="qq_sns" style="width:310px;"  ><?php echo($options['qq_sns']); ?></textarea></label>
 							<br/><br/>	
 							<label><input name="feedsnscheck" type="checkbox" value="checkbox" <?php if($options['feedsnscheck']) echo "checked='checked'"; ?> />开启feed订阅图标</label><br/>
