@@ -26,7 +26,17 @@
 						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 						<div class="clear"></div>
 						
-						<span class="cate left"><?php the_time('Y.m.j'); ?> , <?php the_category(', '); ?> , <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?> <?php if(function_exists('the_views')) {the_views();} ?></span> <span class="time right" ><?php edit_post_link('<span class="edit">[edit]　</span>');?></span>
+						<span class="cate left">
+							<span class="singletime"><?php the_time('Y.m.j'); ?></span>
+							<!--<span class="singleview"><?php the_category(', '); ?></span>-->
+							<span class="singlecom">
+								<?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
+							</span>
+							<?php if(function_exists('the_views')) {the_views();} ?>
+						</span>
+						<span class="time right" >
+							<?php edit_post_link('<span class="edit">[edit]　</span>');?>	
+						</span>
 						</section>
 						
 						<section class="postcontents cf">
@@ -76,16 +86,4 @@
 							<tr>
 								<td><span class=pageprevious><?php previous_posts_link('上一页')?></span></td>
 								<td class="pagenumber"><?php par_pagenavi(9); ?></td>
-								<td><span class=pagenext><?php next_posts_link('下一页')?></span></td>
-							</tr>
-						</tbody>
-					</table>
-				</nav>
-			
-			</article>	
-		</section>
-
-
-	<?php get_sidebar(); ?>
-	</div><!--#content-->
-<?php get_footer(); ?>
+								<td><span class=pagenext><?php next_posts_link('下一页')?><
