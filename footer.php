@@ -67,7 +67,7 @@
 				<p>基于 <a href="http://wordpress.org/">WordPress</a> 技术构建 | <a title="阿里云虚拟主机" href="https://www.aliyun.com/" target="_blank">阿里云虚拟主机</a> | <a title="百度云加速" href="http://su.baidu.com/" target="_blank">百度云加速</a> | 共<?php echo get_num_queries(); ?> 次查询,用时 <?php timer_stop(1); ?> 秒 </p>
 				</div>
  
-				<div id="bottomlogo"><a href="https://github.com/hate13/loper.git" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/githublogo.png"/></a></div>
+				<div id="bottomlogo"><a href="https://github.com/hate13/loper.git" target="_blank"><img src="<?php bloginfo('template_url'); ?>/images/githublogo.svg" width="42" /></a></div>
 				<div class="clear"></div>
 			</div>
 		</div><!--.contasoeiner-->	
@@ -87,5 +87,4 @@
 
 </div><!--#main-->
 <?php wp_footer(); ?>
-</body>
-</html>
+</bo
