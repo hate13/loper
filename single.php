@@ -145,6 +145,6 @@
 		</section>
 
 
-	<?php include_once("sidebar2.php"); ?>
+	<?php /*include_once("sidebar2.php");*/ ?>
 	</div><!--#content-->
 <?php get_footer(); ?>

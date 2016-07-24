@@ -53,7 +53,7 @@
 						<div class="post-content cf">
 						<?php if($options['cms']) : ?> 
 							<p>
-							<?php echo cut_str(strip_tags(apply_filters('the_content',$post->post_content)),185); ?></p>
+							<?php echo cut_str(strip_tags(apply_filters('the_content',$post->post_content)), 180); ?></p>
 							<?php else : ?>
 							<?php the_content(__(''));?>
 						<?php endif; ?>	

@@ -75,7 +75,7 @@ ul.menu li.current-menu-item a { line-height:17px;display:block;padding:6px 15px
 
 /* -----------Content----------- */
 #content { padding:0 30px; margin-top:10px; }
-.layout{ float:left; padding-right:50px;_margin-left:-5px;_padding-right:-20px;width:620px;}
+.layout{ float:left; padding-right:50px;_margin-left:-5px;_padding-right:-20px;width:920px;}
 
 
 /* --slideshow-- */
@@ -280,10 +280,10 @@ width:130px;height:22px;text-indent:0px;border:1px solid #CCC;-moz-box-shadow:0p
 		
 		
 /* --Postinfo-- */
-.postinfo{ border-top:1px solid #767777; width:620px; background:url(images/postinfobg.jpg) repeat-y; margin:30px 0 20px 0; padding:5px 0 0 0; font-size:12px;font-family: "Microsoft YaHei","Trebuchet MS",Tahoma,Arial,sans-serif; color:#666;}
+.postinfo{ border-top:1px solid #767777; width:920px; background:url(images/postinfobg.jpg) repeat-y; margin:30px 0 20px 0; padding:5px 0 0 0; font-size:12px;font-family: "Microsoft YaHei","Trebuchet MS",Tahoma,Arial,sans-serif; color:#666;}
 .postinfo a{color:#666;}
 .postinfo a:hover{color:#67A611;}
-.postinfoend{ background:url(images/postinfoend.jpg) no-repeat; width:620px; height:3px}
+.postinfoend{ background:url(images/postinfoend.jpg) no-repeat; width:920px; height:3px}
 
 .singletag{ padding:0 0 0 20px;background:url(images/singleimg.jpg) no-repeat;background-position: 0 -595px;}
 .singleshare{ padding:0 0 0 20px; background:url(images/singleimg.jpg) no-repeat; margin:0 5px;cursor:pointer;background-position: 0 -531px;}
