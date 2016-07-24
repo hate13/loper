@@ -581,24 +581,24 @@ add_action('init', 'init_gitsmilie', 5);
 
 /* hate13.2016.5.20.添加访客VIP样式 */
 function get_author_class($comment_author_email,$user_id){
-global $wpdb;
-$author_count = count($wpdb->get_results(
-"SELECT comment_ID as author_count FROM $wpdb->comments WHERE comment_author_email = '$comment_author_email' "));
+	global $wpdb;
+	$author_count = count($wpdb->get_results(
+	"SELECT comment_ID as author_count FROM $wpdb->comments WHERE comment_author_email = '$comment_author_email' "));
 
-/*如果不需要管理员显示VIP标签，就把下面一行的”//“去掉*/
-//$adminEmail = get_option('admin_email');if($comment_author_email ==$adminEmail) return;
-if($author_count>=1 && $author_count<10)
-echo '<a class="vip1" title="评论达人 LV.1"></a>';
-else if($author_count>=10 && $author_count<20) 
-echo '<a class="vip2" title="评论达人 LV.2"></a>';
-else if($author_count>=40 && $author_count<80)
-echo '<a class="vip3" title="评论达人 LV.3"></a>'; 
-else if($author_count>=80 && $author_count<160) 
-echo '<a class="vip4" title="评论达人 LV.4"></a>'; 
-else if($author_count>=160 &&$author_count<320) 
-echo '<a class="vip5" title="评论达人 LV.5"></a>'; 
-else if($author_count>=320 && $author_count<640) 
-echo '<a class="vip6" title="评论达人 LV.6"></a>'; 
-else if($author_count>=640) 
-echo '<a class="vip7" title="评论达人 LV.7"></a>'; 
+	/*如果不需要管理员显示VIP标签，就把下面一行的”//“去掉*/
+	//$adminEmail = get_option('admin_email');if($comment_author_email ==$adminEmail) return;
+	if($author_count>=1 && $author_count<10)
+	echo '<a class="vip1" title="评论达人 LV.1"></a>';
+	else if($author_count>=10 && $author_count<20) 
+	echo '<a class="vip2" title="评论达人 LV.2"></a>';
+	else if($author_count>=40 && $author_count<80)
+	echo '<a class="vip3" title="评论达人 LV.3"></a>'; 
+	else if($author_count>=80 && $author_count<160) 
+	echo '<a class="vip4" title="评论达人 LV.4"></a>'; 
+	else if($author_count>=160 &&$author_count<320) 
+	echo '<a class="vip5" title="评论达人 LV.5"></a>'; 
+	else if($author_count>=320 && $author_count<640) 
+	echo '<a class="vip6" title="评论达人 LV.6"></a>'; 
+	else if($author_count>=640) 
+	echo '<a class="vip7" title="评论达人 LV.7"></a>'; 
 }
