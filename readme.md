@@ -7,6 +7,6 @@
 [hate13's blog](http://hate13.com)
 
 ##推荐插件
-Crayon Syntax Highligher
-WP Super Cache
-WP-Player
+* Crayon Syntax Highligher
+* WP Super Cache
+* WP-Player
