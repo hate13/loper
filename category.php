@@ -26,7 +26,7 @@
 						<section class="title">
 						<h2><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h2>
 						<div class="clear"></div>
-						<span class="cate left"><?php the_time('Y.m.j'); ?> , <?php the_category(', '); ?> , <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?> , <?php if(function_exists('the_views')) {the_views();} ?></span> <span class="time right" ><?php edit_post_link('<span class="edit">[edit]　</span>');?></span>
+						<span class="cate left"><?php the_time('Y.m.d'); ?> , <?php the_category(', '); ?> , <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?> <?php if(function_exists('the_views')) {the_views();} ?></span> <span class="time right" ><?php edit_post_link('<span class="edit">[edit]　</span>');?></span>
 						</section>
 						<section class="postcontents cf">
 							<?php if($options['thumbnail']) : ?> 

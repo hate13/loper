@@ -3,7 +3,7 @@
 <?php $options = get_option('loper_options'); ?>
 	<div id="content">
 		
-		<section class="layout">
+		<section class="layout2">
 		
 		
 			<?php $options = get_option('loper_options'); ?>
@@ -45,6 +45,14 @@
 							<?php the_content(); wumii_get_related_items(); ?>
 							<?php else : ?>	
 							<?php the_content(); ?>
+
+							<!--hate13.2016.7.28.添加版权信息-->
+							<div style="border:1px dashed #ddd; padding:10px; margin:10px 0;line-height:26px;border-radius: 3px; background: #FAFAFA" class="post-content2"><div>
+							» <b>本文链接：</b><a rel="bookmark" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">
+							<?php echo the_permalink(); ?></a></div><div> » <b>订阅本站：</b>
+							<a title="订阅哈特13博客" href="http://hate13.com/feed" rel="external nofollow">http://www.hate13.com/feed</a></div>
+							<div> » <b>转载请注明来源：</b><a title="hate13.com" href="http://hate13.com/" rel="external nofollow">哈特13's Blog</a>
+							» <a rel="bookmark" title="<?php the_title(); ?>" href="<?php the_permalink(); ?>">《<?php the_title(); ?>》</a></div>
 							<?php endif; ?>	
 							
 							

@@ -1,6 +1,68 @@
 ﻿<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<!-- 哈，你在看我源码~
+                                                                                                    
+                                                                                                    
+                    . .1XXS;                                                   ,r55:                
+                      hM@@@M8i   .                                          :18B@@@h                
+                     1B@Xi1A#@Xs.                                        ,1GB@@MB#@8,               
+                  . ;A@&;  .rX@@Gi                                ..  .i9B@@MA&XXB#A;  .            
+                   .8@Ar  .   rX@#3:                                ,1X#@#BA&X&XXH@Mr ..            
+                  .hM@3.       .hM@&i              ............   ,1&#@MH&XX&&&&XH@#h .             
+                  ,X@&i          rA@As;rs1h538GX&AHHBBMMMMMBHHAA&GA#@B&X&&&&X&&XXA#@9 .             
+                  1#@S            sB@@####MBHA&XXG893SSSS55A@@MMM##BAXX&&&&&&&&&XAM@G.              
+                 .8@Br             sS51i;:,..             .8@#&GX&&&&&&&&&&&&&&&X&M@&,              
+                 ;A@&,.          .                        .9@MH&XX&&&&X&&&&&&A&&X&B@A:              
+               . rM@3.                                     rH@MAX&&&&&X&&&&&&&&&&AM@&;              
+                 1#@5                                       1H@#A&XXXX&&&&&&&&X&X&M@H; ..           
+                iX@#1                                       .iG#@#BA&XXXX&&XXXX&&AM@@Gr .           
+              ,SM@Ah.                                         .r9B#@@MBBHHHHBBM##@#BB@Bs            
+             ;X@MS:    .                                         ,r58&HBM##MMBH&85r:;8@Mh  .        
+            :&@Bh   .  .                               :s5SS5s;.      ,:;;;;:,.      ,8@Ms  .       
+   ,SAAX95ri&@Ar            .;shSS5s;.             .:5AMHXXX&HBHG1:                 . rH@A;         
+   .19XAB#MM@#3,          ,5&BBA&&AHB&3:          .5BMGs,   ..;5&MB3;.                .5@@5         
+       ..:3@@@#BS.      .hH#Gs,    ,s99;          .rh;          .i8MX:               . :H@8...      
+       . .9@Mhh9s.      .i5r                            ..         ,:.              .. ;A@MAHH9;    
+         iH@X.               .     .     .           .r9&&8s.                       ,h&M#@MX93h:    
+         sM@9 . .             .:5G&XS:               iA@@@@M1                       ,SGX#@8,        
+         1#@S   ..            .S@@@@@8, .            ,3M@@#Gi                          h##h         
+.        hM@3,...              sA#@#Ah.               .;s1i.                          :&@Hi .       
+. i153G&&B@@MMH1.               ,isi,                                             .iss9@M1.         
+ ,&#HBAX98H@M91:                                                                  :GM#@@@&9hi.  .  .
+. i;:,    5##h  .                                                             ..   :8@@G3XB#@AS:.  .
+    .   . :G@Bs                                                                .  ,9##S.  ,;3H&i.   
+           i&@H1  ..                       ,ri:.  .i39i                          1A@H1  .     .     
+          . ;X@#3,                         ;8BBAXXHBB3:                       .iG@@8: . .           
+          .  :SM@Ah:                        .:rhS35r.                      .;5A@#Gr                 
+               ;9M@B8s:.                                                ,sSGM@H9r                   
+             ..  :hGM#BA91i,.                                    ,:i1S9&B@@@Mh,                     
+                    ,s3X#@#BAG8351sri;;::,,,,..,,,,,,:;;ir15S9G&ABM#@@#BA&B@B;                      
+                        h#@BHHM########MMMBBBBBMBBMMMMMMMM##MMMBA&XG933S5SH@Bi                      
+                    ..  1##855SSS399988GXX&M@@#BA&AB#@#HG33SSS55h5555S55S9H@H;                      
+                        h#@HG3SS5h55hh5hh3A#B91i;;,:i9#@A35S5hh55SS39GXAM#@@Mr                      
+                     .  S@@####MHA&XG8898H@Hh;;;i;;i: 1B#&GGXX&ABM####B&G59#@h                      
+                       :A@HrrhS9XAHBM#@##@@&i;i;;;SBMG3H@@@MMMBA&G951i,.. iB@8.                     
+                    . :G@Mh .    ..,:iii1G@Mh;:,:;i19H###9i;:,.           :9@Bi .                   
+                    .sA@M5. .            :G@M81;,,,,sX@@G:                 rB@Gi ..                 
+                     5&8r  . .            ,h&#@MHABM#MXs..                 .hH@8...                 
+                                            .;s59895s;                       ,i:                    
+                                                                                                    
+                                                                                                    
+                                                                              .                     
+          . :S1.;Si                .53:         ;hh11r..r1111h1s;  ..,:,..:31  ,hh.                 
+           ,X#h:&@A999999S;        ,H#i         i933BH:;BA555h9#9..,8H&H8:i@G,:rG@8ir, .            
+          ;X#5,X#95S3SS8@Hi i9G88G8GM#X988G8G3i..,;rAB:;B&hh5h3#8  ,ABi&H3&#B8S88XXG8s.             
+        .hB@Ar8Mh  sXs i9s  ,s1sssr8@@A1sssssr, 1H&8GS::hS3B@G35r. ,AA:&&;r#8.i9i  S9: ..           
+        r&GBA;;i5S,1#S;8h         ,&B&Bh        3@S,..:8H89H#G3XAr ,&A;&A,rMA51B9 ;M&, ..           
+        ..,AB; s#G.1Mh,XMs  .    ,9M1 3MS.     .hA&GA&hAM1;&#5;8#1 ,&&:XH3A#Ah,&A h#h  ..           
+          :HH;iBH: 1MS ;HA;     iA@8   SM&r  .   ...8#1hG99B#G8AXi .&BsA&;sM9  8HrXH: .             
+          :HHr9&r  sBS  5B5  ,r8M&8HXs. rXMGs.     .GM;  ,:X#hhH&: ,A@&#A.;@G,:rh3#3:,.             
+          ;BBi..:38AB1  .;, s&HX1  rXG;   rGBGi :58&H3i3XXX&AG8X#9. 5S,r1hXB51GXXAB&&S,             
+          .rs,  .r1ri. .    ,i;      .      :;, .i1s;.,;;::... .ii.      ;r;..,::,,,:,              
+                                                                                                    
+
+-->
 	<title><?php if ( is_tag() ) {
 			echo wp_title('Tag:');if($paged > 1) printf(' - 第%s页',$paged);echo ' | '; bloginfo( 'name' );
 		} elseif ( is_archive() ) {

@@ -10,3 +10,4 @@
 * Crayon Syntax Highligher
 * WP Super Cache
 * WP-Player
+* Content Index for Wordpress

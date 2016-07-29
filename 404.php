@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>  class="error">
 <head>
-	<title>Sorry，出错了。这里是404</title>
+	<title>出错了，这里是404</title>
 		
 	<?php $options = get_option('loper_options'); ?>
 	

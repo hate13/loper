@@ -13,7 +13,7 @@ html,body,div,span,object,iframe,blockquote,pre,abbr,address,cite,code,del,dfn,e
 /* loper theme——start----Basic------ */
 html{ background-image:url(images/bg.jpg);background-color:#F0F0F0; background-repeat:repeat-x;}
 
-body{color: #222;font-size:13px;font-family: 'Century Gothic',"Microsoft YaHei", Trebuchet MS, Arial, Verdana, Tahoma, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;background-color:#F0F0F0; background-repeat:repeat-x;/* 2016.5.24.hate13.添加鼠标样式 cursor:url(../images/hand.cur), auto */}
+body{color: #222;font-size:13px;font-family: Verdana, 'Century Gothic',"Microsoft YaHei", Trebuchet MS, Arial, Tahoma, "DejaVu Sans", "Liberation sans", "Bitstream Vera Sans", sans-serif;background-color:#F0F0F0; background-repeat:repeat-x;/* 2016.5.24.hate13.添加鼠标样式 cursor:url(../images/hand.cur), auto */}
 
 #main { background-image:url(images/bg.jpg) ;background-color:#F0F0F0; background-repeat:repeat-x;-webkit-text-size-adjust:none;width: 100%;}
 
@@ -50,7 +50,7 @@ header {width: 1000px; height:150px;margin: 0 auto;background:transparent url(im
 .hgroup h1,.hgroup h2{padding:38px 0 0 30px;font-family: "Microsoft YaHei",sans-serif;font-weight:bold;font-size:25px; width:300px; }
 .hgroup h1 a,.hgroup h2 a{ color:#504f4f; text-decoration:none;
 text-shadow:1px 1px 3px #C1C1C1;}
-.logo{ float:left;display:block;width:250px; height:88px; background:url(images/logo.png) no-repeat; margin-top:9px;//add by hate13}
+.logo{ float:left;display:block;width:250px; height:100px; background:url(images/logo.png) no-repeat; margin-left:20px;//add by hate13}
 .searchbar{ width:132px; height:32px; float: right;  position:relative;top:55px ; right :18px; }
 .searchfade{width:132px; height:32px;background:url(images/sideimg.gif) no-repeat 0 -63px;display:none;}
 .searchbarswitch{ width:22px; height:21px; float:right; position:relative; top:112px; right:30px;cursor:pointer;}
@@ -75,8 +75,9 @@ ul.menu li.current-menu-item a { line-height:17px;display:block;padding:6px 15px
 
 /* -----------Content----------- */
 #content { padding:0 30px; margin-top:10px; }
-.layout{ float:left; padding-right:50px;_margin-left:-5px;_padding-right:-20px;width:920px;}
-
+.layout{ float:left; padding-right:50px;_margin-left:-5px;_padding-right:-20px;width:620px;}
+/* 2016.7.24.hate13.添加单栏文章布局 */
+.layout2{ float:left; padding-right:50px;_margin-left:-5px;_padding-right:-20px;width:945px;}
 
 /* --slideshow-- */
 .slideshowbg{ _display:none; width:640px; height:180px; background:url(images/slideshow.png) no-repeat; overflow: hidden; position:relative;}
@@ -252,7 +253,7 @@ width:130px;height:22px;text-indent:0px;border:1px solid #CCC;-moz-box-shadow:0p
 .post-content h3{font-size:14px;font-weight:bold;text-shadow:1px 1px 2px #b5b5b5; padding:10px 0; margin:0; clear:both;}
 .post-content h4{font-size:12px;margin:1.33em 0;}
 .post-content h6{font-size:11px; }
-.post-content hr{ background:url(images/line.png) no-repeat; height:30px; width:610px; clear:both; border:none;margin:0 0 10px 0;}
+.post-content hr{ background:url(images/line.png) no-repeat; height:30px; width:940px; clear:both; border:none;margin:0 0 10px 0;}
 .post-content b,.post-content strong{font-weight:bold;}
 
 .post-content th,.post-content td{display:table-cell;vertical-align:inherit;padding:1px;}
@@ -280,10 +281,10 @@ width:130px;height:22px;text-indent:0px;border:1px solid #CCC;-moz-box-shadow:0p
 		
 		
 /* --Postinfo-- */
-.postinfo{ border-top:1px solid #767777; width:920px; background:url(images/postinfobg.jpg) repeat-y; margin:30px 0 20px 0; padding:5px 0 0 0; font-size:12px;font-family: "Microsoft YaHei","Trebuchet MS",Tahoma,Arial,sans-serif; color:#666;}
+.postinfo{ border-top:1px solid #767777; width:945px; background:url(images/postinfobg.jpg) repeat-y; margin:30px 0 20px 0; padding:5px 0 0 0; font-size:12px;font-family: "Microsoft YaHei","Trebuchet MS",Tahoma,Arial,sans-serif; color:#666;}
 .postinfo a{color:#666;}
 .postinfo a:hover{color:#67A611;}
-.postinfoend{ background:url(images/postinfoend.jpg) no-repeat; width:920px; height:3px}
+.postinfoend{ background:url(images/postinfoend.jpg) no-repeat; width:945px; height:3px}
 
 .singletag{ padding:0 0 0 20px;background:url(images/singleimg.jpg) no-repeat;background-position: 0 -595px;}
 .singleshare{ padding:0 0 0 20px; background:url(images/singleimg.jpg) no-repeat; margin:0 5px;cursor:pointer;background-position: 0 -531px;}
@@ -304,7 +305,7 @@ width:130px;height:22px;text-indent:0px;border:1px solid #CCC;-moz-box-shadow:0p
 
 /* --Relate-- */
 .relatebar{clear:both; margin:10px 0;}
-.relatebar ul{margin:0px 10px 0px 65px; list-style: none;overflow:auto; width:545px;}
+.relatebar ul{margin:0px 10px 0px 65px; list-style: none;overflow:auto; /*hate13.2016.7.26注释width:545px;*/}
 .relatebar ul li{ float:left;margin:0;list-style: none; padding:3px 15px; background:url(images/sidebarli.gif) no-repeat;
                  width:230px;background-position:0 -1px}
 			
@@ -506,12 +507,8 @@ footer{ margin-top:40px;background:url(images/footerbottombg.png) repeat-x botto
 /* 2016.7.11.hate13 update */
 #bottomlogo {float:right; display:block; width:42px; height:42px; margin:20px 8px 0 0; _margin:20px 20px 0 0;}
 .logoinfo{width:97px; height:41px;display:block; border:none;}
-//#updown { background:url(images/sideimg.gif) no-repeat 0 -222px; width: 16px; height: 73px; position:fixed; top:50%; left:50%; //margin-left:-570px;opacity:1; filter:alpha(opacity=100); _display:none}
-//#updown { background:url(images/sideimg.gif) no-repeat 0 -222px; width: 16px; height: 73px; position:fixed; top:50%; 
-//left:50%;margin-left:170px;}
-#updown { background:url(images/sideimg.gif) no-repeat 0 -195px; width: 22px; height: 109px; position:fixed; top:50%; left:50%;margin-left:170px;}
-//.loperupwards,.loperdownwards{ width: 16px; height: 25px; display:block; cursor:pointer;}
-//.loperdownwards{margin-top:23px}
+//#updown { background:url(images/sideimg.gif) no-repeat 0 -222px; width: 16px; height: 73px; position:fixed; top:50%; left:50%; //margin-left:-570px;}
+#updown { background:url(images/sideimg.gif) no-repeat 0 -195px; width: 22px; height: 109px; position:fixed; top:50%; left:50%;margin-left:-570px;opacity:1; filter:alpha(opacity=100); _display:none}
 .loperupwards{margin-top:36px;}
 .loperupwards,.lopercomment,.lopercomments,.loperdownwards{ width: 16px; height: 22px; display:block; cursor:pointer;margin-left:3px;}
 .footercodediv{display:block;overflow:hidden;width:0;height: 0;}

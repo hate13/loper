@@ -27,7 +27,7 @@
 						<div class="clear"></div>
 						
 						<span class="cate left">
-							<span class="singletime"><?php the_time('Y.m.j'); ?></span>
+							<span class="singletime"><?php the_time('Y.m.d'); ?></span>
 							<!--<span class="singleview"><?php the_category(', '); ?></span>-->
 							<span class="singlecom">
 								<?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
