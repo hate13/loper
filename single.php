@@ -18,7 +18,7 @@
 						<h1><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a></h1> 
 						<div class="clear"></div>		
 							<div class="singleinfo">
-								<span class="singletime"><?php the_time('Y.m.j'); ?></span>
+								<span class="singletime"><?php the_time('Y.m.d'); ?></span>
 								<span class="singlecom"><?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></span>
 								
 								<?php if($options['postviewopen']) : ?>
