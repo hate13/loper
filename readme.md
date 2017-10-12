@@ -5,6 +5,7 @@
 
 ## Demo
 [hate13's blog](http://hate13.com)
+![screenshot](http://hate13.com/usr/uploads/2016/10/2500707962.png)
 
 ## 推荐插件
 * Crayon Syntax Highligher
